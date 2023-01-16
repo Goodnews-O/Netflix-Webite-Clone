@@ -20,7 +20,7 @@ body
 .nav-d1
 {
     background-image: url(images/Landing_bg.png);
-    height: 700px;
+    height: 710px;
     
     
 }
@@ -43,7 +43,7 @@ nav
  #netflixlogo
 {
     /* fill: #e50914; */
-    margin: 0 620px 0 63px;
+    margin: 0 auto 0 63px;
     height: 36px;
     width: 133px;
    
@@ -57,6 +57,8 @@ nav
     background-color: #e50914;
     padding: 10px 15px;
     border-radius: 3px;
+    float: right;
+    margin-right: ;
     
 
 
@@ -66,8 +68,9 @@ nav
 
 /*firt diviion on the landing page*/
 .Landing-pg-d1
-{
-    /* border: solid red 2px; */
+{ 
+    margin: 0 6rem;
+    border-bottom: solid #222 8px;
     background-size: cover;
     text-align: center;
   padding-top: 160px;
@@ -99,7 +102,7 @@ margin: 10px 0 250px;
 /*second division on th landing page*/
 .Landing-pg-d2
 {
-    /* border: #e50914 10px solid;  */
+    border-bottom: #222 8px solid; 
     margin: 0 6rem;
     display: flex;
     width: 90%;
@@ -133,12 +136,11 @@ margin: 10px 0 250px;
 .Landing-pg-d3
 {
     margin: 0 6rem;
-    /* border: #e50914 10px solid;  */
-    margin: 0 6rem;
     /* display: flex; */
     width: 90%;
     height: 350px;
     padding: 30px 20px;
+    border-bottom: #222 8px solid; 
     
 }
 
@@ -167,6 +169,7 @@ margin: 10px 0 250px;
 .Landing-pg-d4
 {
 margin: 0 6rem;
+border-bottom: #222 8px solid; 
 
 }
 
@@ -196,7 +199,8 @@ margin: 0 6rem;
 /*fifth division on the landing page*/
 .Landing-pg-d5
 {
-margin: 0 6rem;
+    border-bottom: #222 8px solid; 
+    margin: 0 6rem;
 
 }
 
