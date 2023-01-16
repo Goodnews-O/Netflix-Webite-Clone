@@ -58,15 +58,16 @@ nav
     padding: 10px 15px;
     border-radius: 3px;
     float: right;
-    margin-right: ;
-    
+    margin-right:30px ;
+
+
 
 
 }
 
 
 
-/*firt diviion on the landing page*/
+/* firt diviion on the landing page */
 .Landing-pg-d1
 { 
     margin: 0 6rem;
@@ -225,8 +226,103 @@ border-bottom: #222 8px solid;
 
 /*FAQ section*/
 
-.faq
-{
-margin: 0 6rem;
+#faq {
+    width: 100%;
+    background-color: #000000;
+    margin-top: 8px;
+    padding: 50px 0;
 
 }
+    #faq h1 {
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .faqlist {
+        width: 50%;
+        background-color: #303030;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 25%;
+        /*margin-right: 21%;*/
+    }
+        .faqlist p {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 400;
+            padding: 20px;
+        }
+        .faqlist img {
+            width: 20px;
+            height: 20px;
+            padding: 25px;
+        }
+
+        #faq h3 {
+            width: 686px;
+            height: 24px;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 24px;
+            letter-spacing: 0.005em;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+footer {
+    width: 100%;
+    background: #000000;
+    margin-top: 8px;
+}
+    footer h4 {
+        color: #757575;
+        padding: 50px 0 30px 11%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    #list {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #list ul {
+        padding: 20px 0;
+    }
+    #list ul li {
+        color: #757575;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+        list-style-type: none;
+        padding-bottom: 15px;
+    }
+
+    #englishfooter {
+        width: 84px;
+        height: 20px;
+        background: #000000;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 7px 30px;
+        margin: 10px 36px 0px 11%;
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+    }
+    
+    footer p {
+        color: #757575;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+        padding-bottom: 15px;
+        padding-left: 11%;
+        padding-top: 20px;
+    }
